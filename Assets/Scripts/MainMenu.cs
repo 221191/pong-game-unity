@@ -7,4 +7,10 @@ public class MainMenu : MonoBehaviour
     public void PlayGame(){
         SceneManager.LoadScene("Pong");
     }
+
+    public void QuitGame(){
+
+        Debug.Log("QUIT!");
+        Application.Quit();
+    }
 }
